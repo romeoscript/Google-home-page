@@ -1,0 +1,61 @@
+body p {
+    margin: 0;
+    padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-left:auto;
+  padding: 1em;
+}
+nav img{
+  height: 20px;
+}
+ a{
+  color: black;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+main{
+  text-align: center;
+  margin:6em auto;
+  width: 50%;
+}
+input{
+  width: 80%;
+  border-radius:30px;
+  border: 1px solid grey;
+  padding:1em;
+}
+main img{
+  height: 90px;
+}
+.google{
+  margin-top: 1em;
+}
+.google button{
+  padding: 1em;
+  border: none;
+}
+footer{
+  background-color: lightgrey;
+}
+.footertop{
+  padding:1em;
+  border-bottom:1px solid black;
+}
+.footerbottom{
+  padding:1em;
+  display: flex;
+  justify-content:space-between;
+}
+.right{
+  margin-right: 1em;
+  padding-left:3em;
+}
+.left{
+  margin-right:7em;
+}
